@@ -1,0 +1,89 @@
+#vini1{
+    color: rgb(255, 127, 191);
+    text-align: center;
+}
+.aru1{
+    background-color: white;
+    font-size: medium;
+    font-variant: inherit;
+    color: chocolate;
+    text-decoration: wavy;
+}
+button{
+    color: rgb(255, 30, 154);
+    background-color: rgb(99, 69, 92);
+    border: 2px;
+}
+body{
+    background-color:wheat;
+   grid-row: calc();
+}
+button{
+    background-color: rgb(68, 86, 125);
+    color: black;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+}
+p{
+    font-weight: 600;
+    color: rgb(50, 0, 252);
+    font-family: cursive;
+    text-transform: capitalize;
+}
+#vini3{
+    line-height: 20px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#outer{
+    font-size: 25px;}
+#inner{ 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 150px;
+    width: 700px;
+    color: blue;
+    background-color: ivory;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(107, 189, 134);
+    border-radius: 3px;
+    text-align: center;
+ 
+
+
+
+}
+#parent{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-color: black;
+      
+    border-width: 4px;
+}
+#child1{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-color: black;
+     
+    border-width: 4px;
+}
+
+#child2{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-color: black;
+    border-width: 4px;
+}
+#child3{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-color: black;
+       
+    border-width: 4px;
+}

@@ -1,0 +1,44 @@
+* {color: blue;
+   background-color: antiquewhite;
+}
+ h3  {
+color: rgb(49, 226, 43);
+font-size: larger;
+text-decoration: coral underline;
+}
+button{
+    background-color: rgb(255, 196, 196);
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}.aru1
+{border: 2px;
+    color: rgb(188, 255, 80);
+background-color: rgb(224, 64, 160);
+}
+#vini1 {
+color: darksalmon;
+background-color: turquoise;
+}
+#div1 {
+    background-color: rgb(0, 255, 119);
+    color:rgb(206, 152, 116);
+}
+p{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: medium;
+    color: darkgoldenrod;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+h5{
+    text-decoration: line-through;
+}
+.vini2 {
+    text-decoration: solid;
+}
+#aru2{
+    text-decoration: none;
+}

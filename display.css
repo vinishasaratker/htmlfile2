@@ -1,0 +1,15 @@
+div{
+  width: 200px;
+  height: 200px;
+
+  text-align: center;
+  border:2px solid black;
+  margin: 25px;
+  padding: 30px;
+  display: inline-block;
+}
+h3{
+    text-emphasis:center;
+    text-decoration: overline;
+    text-align: center;
+}
