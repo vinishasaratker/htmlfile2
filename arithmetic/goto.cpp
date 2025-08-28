@@ -16,6 +16,6 @@ int main(){
     cout<<table*num<<" ";
     num++;
     goto printnumber;
-
+return 0;
     }
 }
