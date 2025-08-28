@@ -10,8 +10,21 @@ int b=8;
     cout<<"Enter a charactor: ";
     cin>>ch;
     switch(ch){
-        case :'+' cout<<"addition of two numbers";
+        case '+': cout<<a+b<<" addition of two numberss";
         break;
-        case:'-' cout<<"subtraction of two numbers";
+        case'-': cout<<a-b<<" subtraction of two numbers";
+       
+        break;
+        case'*':cout<<a*b<<" multiplication";
+        break;
+        case'/':cout<<a/b<<" division of two numbers";
+        break;
+      
+
+        }
+
+    
+  
+    
+   
     }
-}
