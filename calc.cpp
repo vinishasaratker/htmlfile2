@@ -19,6 +19,7 @@ int b=8;
         break;
         case'/':cout<<a/b<<" division of two numbers";
         break;
+        case'%':cout<<a%b<<"modulus of two numbers";
       
 
         }
