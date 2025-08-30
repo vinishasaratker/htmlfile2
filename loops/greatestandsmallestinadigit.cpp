@@ -52,13 +52,14 @@ using namespace std;
     int num , digit,temp;
     cout<<"enter num";
     cin>>num;
-    temp=num;
+    temp=num; //ttemp=1234
     int rev=0;
     while(num>0)
     {
-int digit=num%10;
-rev=rev*10+digit;
-num=num/10;
+int digit=num%10;//1234 123
+rev=rev*10+digit;//4 3
+
+num=num/10;//123 12 
     }
     if(temp==rev){
     cout<<"palidrom";
