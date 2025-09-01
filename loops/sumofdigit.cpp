@@ -31,6 +31,7 @@ using namespace std;
 //     }
 // }
 {
+   // sum of all the digits in a number
    int num;
    cout<<"enter num";
    cin>>num;

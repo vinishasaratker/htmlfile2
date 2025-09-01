@@ -20,17 +20,3 @@ int main()//
 //     cout<<"not amstrong";
 // }
 // }
-{
-   int num,count;
-    int i=1;
-   cout<<"enter any number";
-   cin>>num;
-   for(int i=1;i<=num;i++){}
-    if(num%i==0 && num%num==0){
-        cout<<"prime";
-    }
-    else{
-        cout<<"notprime";
-    }
-    
-}
