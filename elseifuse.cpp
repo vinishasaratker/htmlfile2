@@ -84,6 +84,6 @@ else if(amount>40000){
     cout<<price  <<"  discount  is 15% ";
 }
 
-
+return 0;
 
 }
