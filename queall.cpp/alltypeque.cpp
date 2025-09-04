@@ -243,16 +243,73 @@
 //     cout<<sum;
 // }
 
+// #include<iostream>
+// using  namespace std;
+// int main(){
+//     //printing a multiplication table of any number
+//     int num;
+//     cout<<"enter any number";
+//     cin>>num;
+//     int table;
+//     for(int i=1;i<=10;i++){
+// table=num*i;
+//  cout<<table<<" ";
+//  }
+   
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     //cheching a number is prime or not
+//     int num;
+//     cout<<"enter  any number";
+//     cin>>num;
+//     int count=0;
+//     for(int i=1;i<=num;i++){
+//         if(num%i==0){count++;}
+
+//     }
+//     if(count==2){
+//         cout<<" number is prime number";
+
+//     }
+//     else{
+//         cout<<" not prime number";
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // reverse of a number program
+//     int num;
+//     cout<<"enter any number :";
+//     cin>>num;
+//     while(num>0){
+//         int digit =num%10;
+//         cout<<digit;
+//         num=num/10;
+
+//     }
+// }
+
 #include<iostream>
-using  namespace std;
+using namespace std;
 int main(){
-    //printing a multiplication table of any number
+    // printing febonacci series
     int num;
-    cout<<"enter any number";
+    cout<<"enter any number :";
     cin>>num;
-    int table;
-    for(int i=1;i<=num;i++){
-table=i*2;
- }
-    cout<<table;
+    int fi=0;
+    int se=1;
+    int sum=0;
+    cout<<fi<<" "<<se;
+   for(int i=1;i<=num-2;i++){
+    sum=fi+se;
+      fi=se;
+    se=sum;
+   
+ cout<<sum<<" ";
+   }
+ 
 }
