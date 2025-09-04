@@ -137,31 +137,122 @@
 //         cout<<"invalid";
 //     }
 // }
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     // discount for shopping according to your amount 
+//     int amount, price;
+//     cout<<"enter amount";
+//     cin>>amount;
+//     if(amount>0 && amount<1000){
+//         price=amount-((5*amount)/100);
+//         cout<<price<<"  your discount is 5%";
+//     }
+//     else if(amount>=1000 && amount<5000){
+//         price=amount-((10*amount)/100);
+//         cout<<price<<"  your discount is 10 %";
+//     }
+//     else if(amount>=5000 && amount<10000){
+//         price=amount-((15*amount)/100);
+//         cout<<price<<"  your discout is 15 %";
+//     }
+//     else if(amount>=10000 && amount<30000){
+//         price=amount-((20*amount)/100);
+//         cout<<price<<"  your discoumt is 20 %";
+//     }
+//     else if(amount>50000){
+//         price=amount-((30*amount)/100);
+//         cout<<price<< "  your discount is 30%";
+//     }
+// }
+//loops question
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // printing or 10 natural number
+
+//     int num=10;
+//     for(int i=1;i<=10; i++){
+// cout<<i;
+// cout<<endl;
+//     }
+    
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // factorial of any number
+//     int num;
+//     cout<<"enter any number";
+//     cin>>num;
+//     int fact=1;
+//     for(int i=1;i<=num;i++){
+// fact=fact*i;
+//     }
+//     cout<<fact;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // sum of n natural numbers
+//     int sum=0;
+//     int i=1;
+// int num;
+// cout<<"enter any number";
+// cin>>num;
+// while(i<=num){
+//     sum=sum+i;
+//     i++;
+// }
+// cout<<sum;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     //program in which  printt the numbers  which aRE is divisible by 3 and 5
+//     int num;
+//     cout<<"enter any number :";
+//      cin>>num;
+
+//     for(int i=1;i<=num; i++){
+//         if(i%5==0  && i%3==0){
+//  cout<<i<<"  ";
+//         }
+        
+//     }
+    
+//     }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // write a program to print square of sum og n natural numbers
+//     int num;
+//     cout<<"enter any number :";
+//     cin>>num;
+//     int sum=0;
+//     int i=1;
+//     while(i<=num){
+//         int count=i*i;
+//         i++;
+// sum=sum+count;
+//     }
+//     cout<<sum;
+// }
+
+#include<iostream>
+using  namespace std;
 int main(){
-    // discount for shopping according to your amount 
-    int amount, price;
-    cout<<"enter amount";
-    cin>>amount;
-    if(amount>0 && amount<1000){
-        price=amount-((5*amount)/100);
-        cout<<price<<"  your discount is 5%";
-    }
-    else if(amount>=1000 && amount<5000){
-        price=amount-((10*amount)/100);
-        cout<<price<<"  your discount is 10 %";
-    }
-    else if(amount>=5000 && amount<10000){
-        price=amount-((15*amount)/100);
-        cout<<price<<"  your discout is 15 %";
-    }
-    else if(amount>=10000 && amount<30000){
-        price=amount-((20*amount)/100);
-        cout<<price<<"  your discoumt is 20 %";
-    }
-    else if(amount>50000){
-        price=amount-((30*amount)/100);
-        cout<<price<< "  your discount is 30%";
-    }
+    //printing a multiplication table of any number
+    int num;
+    cout<<"enter any number";
+    cin>>num;
+    int table;
+    for(int i=1;i<=num;i++){
+table=i*2;
+ }
+    cout<<table;
 }
