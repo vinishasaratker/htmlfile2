@@ -293,23 +293,37 @@
 //     }
 // }
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // printing febonacci series
+//     int num;
+//     cout<<"enter any number :";
+//     cin>>num;
+//     int fi=0;
+//     int se=1;
+//     int sum=0;
+//     cout<<fi<<" "<<se;
+//    for(int i=1;i<=num-2;i++){
+//     sum=fi+se;
+//       fi=se;
+//     se=sum;
+   
+//  cout<<sum<<" ";
+//    }
+ 
+// }
 #include<iostream>
 using namespace std;
 int main(){
-    // printing febonacci series
+    //implement a program to count number of digits in a number
     int num;
-    cout<<"enter any number :";
+    cout<<"enter any number";
     cin>>num;
-    int fi=0;
-    int se=1;
-    int sum=0;
-    cout<<fi<<" "<<se;
-   for(int i=1;i<=num-2;i++){
-    sum=fi+se;
-      fi=se;
-    se=sum;
-   
- cout<<sum<<" ";
-   }
- 
+int count=0;
+while(num>0){
+    num=num/10;
+    count++;
+}
+cout<<" number of digit is"<<count;
 }

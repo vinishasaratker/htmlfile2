@@ -26,10 +26,12 @@ int main(){//right angle triangle
 //     }
 
 int num=1;
+num=1;
 for(int row=1;row<=5;row++){
     for(int col=1;col<=5;col++){
         if(col<=row){
-            cout<<col;
+            cout<<num;
+     num++;       
             
         }
         
