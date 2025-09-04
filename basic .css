@@ -45,8 +45,35 @@ h5{
 }
 .hyy{
     padding: 3px;
-    margin: 10px;
+     margin: 10px;
+      /* margin is a gap of two contents or two text  
+      paddingis a  gap between border and text */
     border: 3px solid black;
     background-color: antiquewhite;
     border-radius: 15px;
+}
+.vini{
+    height: 70px;
+    width: 150px;
+    border: 1px dashed blue;
+    background-color: white;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+padding-top: 40px;
+padding-left: 40px;
+border-bottom-left-radius: 13px;
+border-top-right-radius: 13px;
+border-left: 2px dashed black;
+
+border-right:3px solid rgb(227, 15, 15);
+}
+.sirr{
+    background: white;
+    padding: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-left: 250px;
 }
