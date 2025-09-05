@@ -1,10 +1,4 @@
-div{
-  width: 200px;
-  height: 200px; 
-
-  text-align: center;
-  border:2px solid black;
-}
+ 
 h3{
     text-emphasis:center;
     text-decoration: overline;
@@ -17,4 +11,32 @@ h3{
   justify-content: center;
   align-items: center;
   gap: 22px;
-}
+  background-color: blanchedalmond;
+  border: 2px solid black;
+
+} 
+ #haa{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 70px;
+
+ 
+ }
+ .hm{
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+ }
+ .hm1{
+    width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid black;
+ }
+.hm2{
+    width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  
+ }
