@@ -313,17 +313,116 @@
 //    }
  
 // }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     //implement a program to count number of digits in a number
+//     int num;
+//     cout<<"enter any number";
+//     cin>>num;
+// int count=0;
+// while(num>0){
+//     num=num/10;
+//     count++;
+// }
+// cout<<" number of digit is"<<count;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // write a program to calculate sum of digits in a number
+//     int num;
+//     cout<<"enter a number :";
+//     cin>>num;
+//     int sum=0;
+//     while(num>0){
+//         int digit=num%10;
+// sum=sum+digit;
+// num=num/10;
+//     }
+//     cout<<"sum of digit is "<<sum;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     //palidrom or not 
+//     int num,digit,rev;
+  
+// {
+//     int num , digit,temp;
+//     cout<<"enter num";
+//     cin>>num;
+//     temp=num; //ttemp=1234
+//     int rev=0;
+//     while(num>0)
+//     {
+// int digit=num%10;//1234 123
+// rev=rev*10+digit;//4 3
+
+// num=num/10;//123 12 
+//     }
+//     if(temp==rev){
+//     cout<<"palidrom";
+// }
+// else{
+//     cout<<"not a palidrom";
+// }
+//}
+//}
+
+// #include<iostream>
+//  using namespace std;
+// int main(){
+//     // sum  of even and odd number seperately
+//     int num;
+//     int sum=0;
+//     int add=0;
+//     cout<<"enter a number:";
+//     cin>>num;
+//     for(int i=1;i<=num;i++){
+//         if(i%2==0){
+            
+//             sum=sum+i;
+//         }
+//         else if(i%2!=0){
+            
+//             add=add+i;
+//         }
+
+//     }
+//     cout<<" sum of even sumber is  "<<sum;
+//     cout<<" sum of odd number is "<< add;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+// half pyramid
+   
+//     for(int row=1;row<=5;row++){
+//         for(int col=1;col<=5;col++){
+//             if(col<=row){
+//                 cout<<"*";
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+// }
 #include<iostream>
 using namespace std;
 int main(){
-    //implement a program to count number of digits in a number
-    int num;
-    cout<<"enter any number";
-    cin>>num;
-int count=0;
-while(num>0){
-    num=num/10;
-    count++;
-}
-cout<<" number of digit is"<<count;
+   // inverted half pyramid
+    for(int row=1;row<=6;row++){
+        for(int col=1;col<=5;col++){
+            if(row<=col){
+                cout<<" ";
+            }
+            else{
+                cout<<"* ";
+            }
+        }
+        cout<<endl;
+    }
 }

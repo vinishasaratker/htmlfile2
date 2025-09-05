@@ -74,31 +74,43 @@ int main()//{
 // }
 // {
 //     //square of any number
-//     int num1=90;
+//     int num1;
+// cout<<"enter number";
+// cin>>num1;
 //     int square=num1*num1;
 //     cout<<"square of any number: "<<square;
 // }
-{
+// cube of any nnumber
+// {
+// int num;
+// cout<<"enter any num :";
+// cin>>num;
+// int cube=1;
+// cube=num*num*num;
+// cout<<"cube is "<<cube;
+// }
+
+
     //calculate marks of five subjects of students
-    int maths;
-    cout<<"enter maths mark";
-    cin>>maths;
-    int science;
-    cout<<"enter marks of science";
-    cin>>science;
-    int hindi;
-    cout<<"enter marks of hindi";
-    cin>>hindi;
-    int english;
-    cout<<"enter marks of english";
-    cin>>english;
-    int sanskrit;
-    cout<<"enter marks of sanskrit";
-    cin>>sanskrit;
-    int sosialscience;
-    cout<<"entermarks for sosial science";
-    cin>>sosialscience;
-    int average;
-    average=((maths+science+sanskrit+hindi +sosialscience)/5);
-    cout<<average;
-}
+//     int maths;
+//     cout<<"enter maths mark";
+//     cin>>maths;
+//     int science;
+//     cout<<"enter marks of science";
+//     cin>>science;
+//     int hindi;
+//     cout<<"enter marks of hindi";
+//     cin>>hindi;
+//     int english;
+//     cout<<"enter marks of english";
+//     cin>>english;
+//     int sanskrit;
+//     cout<<"enter marks of sanskrit";
+//     cin>>sanskrit;
+//     int sosialscience;
+//     cout<<"entermarks for sosial science";
+//     cin>>sosialscience;
+//     int average;
+//     average=((maths+science+sanskrit+hindi +sosialscience)/5);
+//     cout<<average;
+// }
