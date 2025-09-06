@@ -410,19 +410,90 @@
 //         cout<<endl;
 //     }
 // }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//    // inverted half pyramid
+//     for(int row=1;row<=6;row++){
+//         for(int col=1;col<=5;col++){
+//             if(row<=col){
+//                 cout<<" ";
+//             }
+//             else{
+//                 cout<<"* ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//}
+
+//  #include<iostream>
+//  using namespace std;
+//  int main(){
+// // half pyramidof numbers
+   
+//      for(int row=1;row<=5;row++){
+//               for(int col=1;col<=5;col++){
+//           if(col<=row){
+//                  cout<<col;
+//             }
+//              else{
+//               cout<<" ";
+//             }
+//         }
+//       cout<<endl;     }}
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+   
+
+//     char ch = 'A';
+
+//     for (int i = 1; i <= 5; i++) {
+//         for (int j = 1; j <= i; j++) {
+//             cout << ch << " ";
+//         }
+//         cout << endl;
+//         ch++;  // Move to next alphabet for next row
+//     }
+
+//     return 0;
+
+
+// }
+
 #include<iostream>
 using namespace std;
 int main(){
-   // inverted half pyramid
-    for(int row=1;row<=6;row++){
-        for(int col=1;col<=5;col++){
-            if(row<=col){
-                cout<<" ";
+{
+     // star pyramid
+    for(int row=1;row<6; row++){
+        for (int col=1;col<=6;col++){
+            if(col>=7-row ){
+                cout<<"* ";
+                
             }
             else{
-                cout<<"* ";
+                cout<<" ";
             }
         }
         cout<<endl;
+        
     }
+
+     for(int row=0;row<6; row++){
+        for (int col=0;col<6;col++){
+            if(col>=row ){
+                cout<<"* ";
+                
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+        
+    }
+}
 }
