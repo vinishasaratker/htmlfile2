@@ -463,37 +463,126 @@
 
 // }
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+// {
+//      // star pyramid
+//     for(int row=1;row<6; row++){
+//         for (int col=1;col<=6;col++){
+//             if(col>=7-row ){
+//                 cout<<"* ";
+                
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
+        
+//     }
+
+//      for(int row=0;row<6; row++){
+//         for (int col=0;col<6;col++){
+//             if(col>=row ){
+//                 cout<<"* ";
+                
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
+        
+//     }
+// }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main() {
+//      // cheching the range of prime numbers
+//     int start, end;
+//     cout << "Enter starting range: ";
+//     cin >> start;
+//     cout << "Enter ending range: ";
+//     cin >> end;
+
+//     cout << "Prime numbers between " << start << " and " << end << " are: ";
+// for (int num = start; num <= end; num++) {
+//         int count = 0;
+//         for (int i = 1; i <= num; i++) {
+//             if (num % i == 0) {
+//                 count++;
+//             }
+//         }
+//   if (count == 2) {
+//             cout << num << " ";
+//         }
+//     }
+// cout << endl;
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//      //lcm of two numbers
+//      int num1;
+//      cout<<"enter number first :";
+//      cin>>num1;
+//      int num2;
+//      cout<<"enter number second :";
+//      cin>>num2;
+
+//      int greatest=(num1>num2)? num1:num2;
+//      int a=greatest;
+//      while(1){
+//           if(greatest%num1==0 && greatest%num2==0){
+//                cout<<greatest;
+//                break;
+//           }
+//           greatest=greatest+a;
+         
+//      }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//      // hcf of two numbers
+//      int num1;
+//      cout<<"enter number 1";
+//      cin>>num1;
+//      int num2;
+//      cout<<"enter number 2";
+//      cin>>num2;
+//      int hcf;
+//      int small=(num1<num2)? num1:num2;
+//      for(int i=1;i<=small;i++){
+//           if(num1%i==0 && num2%i==0){
+// hcf=i;
+//           }
+//      }
+//      cout<<hcf;
+
+// }
 #include<iostream>
 using namespace std;
 int main(){
-{
-     // star pyramid
-    for(int row=1;row<6; row++){
-        for (int col=1;col<=6;col++){
-            if(col>=7-row ){
-                cout<<"* ";
-                
-            }
-            else{
-                cout<<" ";
-            }
-        }
-        cout<<endl;
-        
-    }
-
-     for(int row=0;row<6; row++){
-        for (int col=0;col<6;col++){
-            if(col>=row ){
-                cout<<"* ";
-                
-            }
-            else{
-                cout<<" ";
-            }
-        }
-        cout<<endl;
-        
-    }
-}
+     // enter power  of any number
+     int base;
+     cout<<"enter base value:";
+     cin>>base;
+     int power;
+     cout<<"enter power :";
+     cin>>power;
+     int result=1;
+     for(int i=1;i<=power;i++){
+          result=result*base;
+     }
+     cout<<result;
 }
