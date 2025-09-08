@@ -96,6 +96,8 @@ align-items: center;
     height: 850px;
     border: 1px solid black;
     background: url(./treees.jpg);
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
    
 }
