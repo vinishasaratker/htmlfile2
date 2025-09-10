@@ -1,38 +1,27 @@
 #include<iostream>
 using namespace std;
-
 int main(){
-
-    int week;
+ int week;
     cout<<"Enter a Number: ";
     cin>>week;
 
     switch (week){
-    
-        case 1: cout<<"Monday";
+    case 1: cout<<"Monday";
         break;
-
-        case 2: cout<<"Tuesday";
+ case 2: cout<<"Tuesday";
         break;
-
-        case 3: cout<<"Wednesday";
+case 3: cout<<"Wednesday";
         break;
-
-        case 4: cout<<"Thu";
+case 4: cout<<"Thu";
         break;
-
-        case 5: cout<<"Fri";
+         case 5: cout<<"Fri";
         break;
-
-        case 6: cout<<"Sat";
+case 6: cout<<"Sat";
         break;
-
-        case 7: cout<<"Sun";
+case 7: cout<<"Sun";
         break;
-
-        default: cout<<"Invalid";
+ default: cout<<"Invalid";
     }
-
 }
 
 

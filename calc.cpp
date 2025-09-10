@@ -1,11 +1,8 @@
 #include<iostream>
 using namespace std;
-
 int main(){
 int a=7;
 int b=8;
-
-
     char ch;
     cout<<"Enter a charactor: ";
     cin>>ch;
@@ -20,12 +17,5 @@ int b=8;
         case'/':cout<<a/b<<" division of two numbers";
         break;
         case'%':cout<<a%b<<"modulus of two numbers";
-      
-
-        }
-
-    
-  
-    
-   
+       }
     }
