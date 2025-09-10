@@ -180,3 +180,38 @@
 //         cout<<"invalid";
 //     }
 // }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int amount;
+    cout<<"enter card amount :";
+    cin>>amount;
+    string paymentmode;
+    cout<<" enter your payment mode :";
+    cin>>paymentmode;
+    string membership;
+    cout<<" enter yoyr membership";
+    cin>>membership;
+    if(amount>=5000){
+        if(membership=="gold"){
+            if(paymentmode=="card"){
+cout<<" your discount is 20%";
+            }
+            else if(paymentmode=="upi"){
+cout<<" your discount is 15%";
+        }
+        else if(membership=="silver"){
+if(paymentmode=="cash"){
+    cout<<" your discount is 5%";
+
+}
+else if(paymentmode=="card"){
+    cout<<" your discount is 5%";
+        }
+
+    }}
+    else if(amount<5000){
+
+    }
+} 
