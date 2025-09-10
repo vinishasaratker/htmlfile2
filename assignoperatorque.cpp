@@ -1,6 +1,6 @@
-#include<iostream>
-using namespace std;
-int main()//{
+// #include<iostream>
+// using namespace std;
+// int main()//{
     // program of average of three numbers 
     // int a;
     // cout<<"enter number";
@@ -114,3 +114,23 @@ int main()//{
 //     average=((maths+science+sanskrit+hindi +sosialscience)/5);
 //     cout<<average;
 // }
+#include<iostream>
+using namespace std;
+ int main()
+{
+    int a=10;
+    int v=9;
+//     int temp;
+//     temp=a;
+//     a=v;
+//     v=temp;
+//     cout<<" value of a is :  "<<a;
+//     cout<<" value of v is b :"<<v;
+// }
+
+a=a+v;
+v=a-v;
+a=a-v;
+cout<<" value of a is :  "<<a;
+cout<<" value of v is  :"<<v;
+}

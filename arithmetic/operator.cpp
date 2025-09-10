@@ -24,7 +24,7 @@ int main(){
 // cout<<(a<=b)<<endl; // dono me se ek bhi true ho to 1 ho jayenga
 // cout<<(a>=b)<<endl;
 // cout<<(a==b)<<endl;
-//logicam operator ==and  or nor exor
+//logical operator ==and  or nor exor
 
 
 // int a=1;
