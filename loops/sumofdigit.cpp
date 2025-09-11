@@ -30,16 +30,29 @@ using namespace std;
 //          num=num/10;
 //     }
 // }
+// {
+//    // sum of all the digits in a number
+//    int num;
+//    cout<<"enter num";
+//    cin>>num;
+//    int sum=0;
+//    while(num>0){
+// int digit=num%10;
+// sum=sum+digit;
+// num=num/10;
+//    }
+//    cout<<sum;
+// }
 {
-   // sum of all the digits in a number
-   int num;
-   cout<<"enter num";
+   int num ,digit ;
+   cout<<" enter a number :";
    cin>>num;
-   int sum=0;
    while(num>0){
-int digit=num%10;
-sum=sum+digit;
-num=num/10;
+      int digit=num%10;
+      if(digit%2==0){
+         cout<<digit;
+      }
+     
+      num=num/10;
    }
-   cout<<sum;
 }

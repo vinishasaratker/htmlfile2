@@ -28,14 +28,14 @@ int main()
 //     // no output
 //     return 0;
 // }
-{
-    int i;
-    if(true){
-        cout<<"this will work";
+// {
+//     int i;
+//     if(true){
+//         cout<<"this will work";
 
-    }
-    else{
-        cout<<" not work ";
-    }
-}
+//     }
+//     else{
+//         cout<<" not work ";
+//     }
+// }
 
