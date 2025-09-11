@@ -10,8 +10,8 @@ int main()//{//right angle triangle
 //             cout<<"  ";
 //         }
 //     }
-//     cout<<endl;
-//    } 
+//    cout<<endl;
+   // } 
 // left side triangle
 // for(int row=0;row<5;row++){
 //     for(int col=0;col<5;col++){
@@ -36,32 +36,47 @@ int main()//{//right angle triangle
 //    cout<<endl;
 //    } 
 //}
-{
-    for(int row=1;row<6; row++){
-        for (int col=1;col<=6;col++){
-            if(col>=7-row ){
-                cout<<"* ";
+// {
+//     for(int row=1;row<6; row++){
+//         for (int col=1;col<=6;col++){
+//             if(col>=7-row ){
+//                 cout<<"* ";
                 
-            }
-            else{
-                cout<<" ";
-            }
-        }
-        cout<<endl;
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
         
-    }
+//     }
 
-     for(int row=0;row<6; row++){
-        for (int col=0;col<6;col++){
-            if(col>=row ){
-                cout<<"* ";
+//      for(int row=0;row<6; row++){
+//         for (int col=0;col<6;col++){
+//             if(col>=row ){
+//                 cout<<"* ";
                 
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
+        
+//     }
+// }
+
+
+{
+    for(int row=1;row<=5;row++){
+        for(int col=1;col<=5;col++){
+            if(col<=row){
+                cout<<col;
             }
             else{
                 cout<<" ";
             }
         }
         cout<<endl;
-        
     }
 }

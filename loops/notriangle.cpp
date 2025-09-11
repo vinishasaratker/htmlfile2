@@ -13,6 +13,8 @@ int main()//right angle triangle
 //    cout<<endl;
 //     }
     
+
+
 //      for(int row=1;row<=5;row++){
 //     for(int col=1;col<=5;col++){
 //         if(col<=row){
@@ -53,3 +55,29 @@ int main()//right angle triangle
 //     }
 // }
 // }
+// {
+//     for(int row=1;row<=5;row++){
+//         for(int col=1;col<=5;col++){
+//             if(col<=row){
+//                 cout<<" ";
+//             }
+//             else{
+//                 cout<<"*";
+//             }
+//         }
+//         cout<<endl;
+//     }
+// }
+{
+    for(int row=1;row<=5;row++){
+        for(int col=1;col<=5;col++){
+            if(col>=6-row){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+}

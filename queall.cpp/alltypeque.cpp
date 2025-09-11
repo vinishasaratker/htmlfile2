@@ -17,6 +17,8 @@
 //     }
 // }
 
+
+
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -118,21 +120,21 @@
 // }
 // }
 
-#include<iostream>
-using namespace std;
-int main(){
-     // guessing a number using a game
-     int  number=8;
-     int num;
-     cout<<"enter num :";
-        cin>>num;
-if(num==number){
-     cout<<" congratulations you win";
-}
-else{
-     cout<<" invalid";
-}
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//      // guessing a number using a game
+//      int  number=8;
+//      int num;
+//      cout<<"enter num :";
+//         cin>>num;
+// if(num==number){
+//      cout<<" congratulations you win";
+// }
+// else{
+//      cout<<" invalid";
+// }
+// }
 
 // #include<iostream>
 // using namespace std;
@@ -229,7 +231,7 @@ else{
 // #include<iostream>
 // using namespace std;
 // int main(){
-//     //program in which  printt the numbers  which aRE is divisible by 3 and 5
+//     //program in which  print the numbers  which  is divisible by 3 and 5
 //     int num;
 //     cout<<"enter any number :";
 //      cin>>num;
@@ -243,22 +245,22 @@ else{
     
 //     }
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     // write a program to print square of sum og n natural numbers
-//     int num;
-//     cout<<"enter any number :";
-//     cin>>num;
-//     int sum=0;
-//     int i=1;
-//     while(i<=num){
-//         int count=i*i;
-//         i++;
-// sum=sum+count;
-//     }
-//     cout<<sum;
-// }
+#include<iostream>
+using namespace std;
+int main(){
+    // write a program to print square of sum og n natural numbers
+    int num;
+    cout<<"enter any number :";
+    cin>>num;
+    int sum=0;
+    int i=1;
+    while(i<=num){
+        int count=i*i;
+        i++;
+sum=sum+count;
+    }
+    cout<<sum;
+}
 
 // #include<iostream>
 // using  namespace std;
@@ -551,22 +553,22 @@ else{
 //         cout<<endl;
 //     }
 // }
-// #include<iostream>
-// using namespace std;
-// int main(){
+//  #include<iostream>
+//   using namespace std;
+//  int main(){
 //    // inverted half pyramid
 //     for(int row=1;row<=6;row++){
-//         for(int col=1;col<=5;col++){
-//             if(row<=col){
-//                 cout<<" ";
-//             }
+//          for(int col=1;col<=5;col++){
+//            if(col<=6-row){
+//               cout<<" ";
+//              }
 //             else{
 //                 cout<<"* ";
-//             }
-//         }
+//          }
+//       }
 //         cout<<endl;
-//     }
-//}
+//      }
+// }
 
 //  #include<iostream>
 //  using namespace std;
@@ -585,45 +587,35 @@ else{
 //       cout<<endl;     }}
 // #include<iostream>
 // using namespace std;
-
 // int main() {
-   
-
-//     char ch = 'A';
-
-//     for (int i = 1; i <= 5; i++) {
+//  char ch = 'A';
+// for (int i = 1; i <= 5; i++) {
 //         for (int j = 1; j <= i; j++) {
 //             cout << ch << " ";
 //         }
 //         cout << endl;
 //         ch++;  // Move to next alphabet for next row
 //     }
-
-//     return 0;
-
-
+// return 0;
 // }
 
 // #include<iostream>
 // using namespace std;
-// int main(){
+// int main()
 // {
 //      // star pyramid
 //     for(int row=1;row<6; row++){
 //         for (int col=1;col<=6;col++){
 //             if(col>=7-row ){
 //                 cout<<"* ";
-                
-//             }
+//                }
 //             else{
 //                 cout<<" ";
 //             }
 //         }
 //         cout<<endl;
-        
-//     }
-
-//      for(int row=0;row<6; row++){
+//          }
+//   for(int row=0;row<6; row++){
 //         for (int col=0;col<6;col++){
 //             if(col>=row ){
 //                 cout<<"* ";
@@ -634,13 +626,6 @@ else{
 //             }
 //         }
 //         cout<<endl;
-        
-//     }
-// }
-// }
-
-
-
-
+//         }}
 
 
