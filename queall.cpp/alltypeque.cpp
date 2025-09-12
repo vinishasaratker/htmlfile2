@@ -539,7 +539,7 @@ sum=sum+count;
 // #include<iostream>
 // using namespace std;
 // int main(){
-// half pyramid
+// half triangle
    
 //     for(int row=1;row<=5;row++){
 //         for(int col=1;col<=5;col++){
@@ -553,22 +553,22 @@ sum=sum+count;
 //         cout<<endl;
 //     }
 // }
-//  #include<iostream>
-//   using namespace std;
-//  int main(){
-//    // inverted half pyramid
-//     for(int row=1;row<=6;row++){
-//          for(int col=1;col<=5;col++){
-//            if(col<=6-row){
-//               cout<<" ";
-//              }
-//             else{
-//                 cout<<"* ";
-//          }
-//       }
-//         cout<<endl;
-//      }
-// }
+ #include<iostream>
+  using namespace std;
+ int main(){
+   // inverted half  pyramid
+    for(int row=1;row<=6;row++){
+         for(int col=1;col<=5;col++){
+           if(col<=6-row){
+              cout<<" ";
+             }
+            else{
+                cout<<"* ";
+         }
+      }
+        cout<<endl;
+     }
+}
 
 //  #include<iostream>
 //  using namespace std;
