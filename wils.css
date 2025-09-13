@@ -1,9 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
+/* navbar css starts here */
 #navbar{
     border: 2px solid black;
     width: 100%;
@@ -11,10 +11,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
-     
-
-
-}
+    }
 #omg{
     width: 100%;
     height:117px ;
@@ -105,7 +102,10 @@ align-items: center;
     color: red;
     border-radius: 5px;
 }
-
+/* 
+navbar css ends here */
+/* 
+second page background image page starts here */
  #midpage{
    background-color: #0c2847;
    padding-top: 100px;
@@ -149,6 +149,10 @@ padding-top: 120px;
     color: black;
     font-weight: 700
 }
+
+/* page 2 ends here */
+
+/* third page starting */
 #page2{
     width: 100%;
     height: 900px;
@@ -205,17 +209,24 @@ padding-top: 120px;
     font-family: "Fira Sans", sans-serif;
     border-radius: 2px;
 }
+
+/* page 3rd start here */
 #page3{
     width: 100%;
     border: 1px solid black;
-    height: 80vh;
+    height: 60vh;
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 0px;
+     flex-direction: column;
     
+
 
 }
 .pagedown{
-    margin-top: 50px;
+    margin-top: 80px;
     width: 350px;
-    height: 120px;
+    height: 130px;
     border: 2px solid black;
     color: black;
     border-left: none;
@@ -223,13 +234,214 @@ padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+     gap: 70px;
+    font-size: 40px;
     font-weight:bolder;
  font-family: "Fira Sans", sans-serif;
  letter-spacing: 3px;
 
+ margin-left: 800px;
+
 }
-#page3{
+.scrollbar{
+    width: 60%;
+    height: 600px;
+ display: grid;
+  grid-template-columns: repeat(12,445px);
+  overflow-x: scroll; 
+    margin-left: 560px;
+    border: 1 px solid black;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px 50px; /* top-bottom, left-right */
+    margin: auto;
+}
+ .scrollbar div{
+    width: 370px;
+    
+} 
+
+.scrollbar div p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.scrollbar div h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+}
+.item1{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+.item5{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item6{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+.item7{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item8{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+.item9{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item10{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+.item11{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 29px;
+    
+}
+.item12{
+    display: flex;
+    flex-direction: column;
+    
+  
+    gap: 29px;
+}
+/* page 4 starts here */
+#page4{
+
+    width: 100%;
+    height: 70vh;
+ 
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border: 1 px solid black;
+}
+
+.image6{
+    width: 70%;
+    height: 600px;
+  background-color: blanchedalmond;
+      background-image: url(peoplel.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   
+    background-size: cover;
+    display: flex;
+}
+
+.part1{
+   
+    width: 55%;
+    height: 600px;
+    border: 3px solid black;
+}
+.part2{
+   
+    width: 45%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center; 
+    flex-direction: column;
+    gap: 40px;
+ 
+}
+
+.topic{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+     color: #e6e4d8;
+     margin-top: 40px;
+     letter-spacing: 1px;
+}
+ .topic22{ 
+    font-size: 20px;
+    font-weight: 600;
+    
+    letter-spacing: 3px;
+    color: #e6e4d8;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+     
+} 
+.lines{
+    width: 52px;
+    border:  1px solid white;
+margin-right: 300px;
+}
+.topic44{
+text-transform: capitalize;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+color: #e6e4d8;
+letter-spacing: 1px;
+}
+.button4{
+    width: 200px;
+    height: 70px;
+   background-color: transparent;
+   color: #e6e4d8;
+   font-size: 25px;
+   font-weight: 700;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border: 2px solid white;
+ margin-right: 170px;
+ letter-spacing: 2px;
 }
