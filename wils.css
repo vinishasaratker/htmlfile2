@@ -107,8 +107,10 @@ navbar css ends here */
 /* 
 second page background image page starts here */
  #midpage{
+
+/* margin-top: 150px; */
    background-color: #0c2847;
-   padding-top: 100px;
+    padding-top: 120px; 
     width: 100%;
     height: 1000px;
  border: 1px solid black;
@@ -143,11 +145,13 @@ padding-top: 120px;
     width: 220px;
     height: 55px;
   border: none;
+  border-radius: 10px;
     background-color: white;
     font-size: 25px;
     font-family: sans-serif;
     color: black;
     font-weight: 700
+    
 }
 
 /* page 2 ends here */
@@ -444,4 +448,50 @@ letter-spacing: 1px;
    border: 2px solid white;
  margin-right: 170px;
  letter-spacing: 2px;
+}
+#section5{
+width: 100%;
+height: 550px;
+border: 1px solid black;
+}
+.page5{
+    width: 100%;
+    height: 490px;
+    border: 1 px solid black;
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lion{
+    width: 60%;
+    height:300px ;
+    border: 2px solid rgb(131, 129, 129);
+    border-radius: 8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.update{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+   
+}
+.cock{
+    
+    border: 1px solid black;
+
+   padding-bottom: 100px;
+  
+}
+.mobb input{
+    width: 600px;
+    height: 76px;
+    border: 2px solid black;
 }
