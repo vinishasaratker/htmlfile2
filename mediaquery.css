@@ -1,0 +1,90 @@
+@media screen and (max-width: 425px) {
+  
+   .div1 {
+    display: block;
+  } 
+ .searchbox {
+    display: none;
+  }
+  .div3{
+    display: none;
+  }
+  #nav2 {
+    display: none;
+  }
+  .nav2 {
+    display: none;
+  }
+  
+.parra{
+    display: none;
+}
+ 
+  #nav2, .nav2 {
+    display: none;
+  }
+   #scrollbar{
+    display: flex;
+    gap: 10px;
+  }
+  #scrollbar .item11{
+    width: 270px;
+  }
+   #scrollbar .item1{
+    width: 270px;
+  } 
+   #scrollbar .item2{
+    width: 300px;
+  }
+   #scrollbar .item3{
+    width: 300px;
+  }
+   #scrollbar .item4{
+    width: 300px;
+  }
+   #scrollbar .item5{
+    width: 270px;
+  }
+   #scrollbar .item6{
+    width: 270px;
+  }
+   #scrollbar .item7{
+    width: 270px;
+  }
+   #scrollbar .item8{
+    width: 270px;
+  }
+   #scrollbar .item9{
+    width: 270px;
+  }
+   #scrollbar .item10{
+    width: 270px;
+  }
+   #scrollbar .item12{
+    width: 270px;
+  } 
+
+
+  
+  #page2 .topic2 {
+      margin: 0 10px; /* sides ko chhota kar diya */
+      font-size: 18px; /* phone ke liye chhota font */
+  }
+
+  #page2 .topic3 {
+      width: 90%; /* button bhi screen me fit ho jaye */
+  }
+
+  #page2 .topic3 {
+      margin-bottom: 30px; /* button ko thoda upar ya neeche shift karne ke liye */
+      
+  }
+
+
+
+}
+
+
+ 
+
+
