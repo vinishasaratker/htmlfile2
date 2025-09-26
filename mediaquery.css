@@ -1,5 +1,18 @@
 @media screen and (max-width: 425px) {
   
+
+    
+  .div2 {
+      justify-content: center; /* logo center me aayega */
+      gap: 20px; /* gap ko reduce kiya */
+  }
+
+  .image img {
+      width: 150px;  /* phone/tablet ke liye logo chhota kar do */
+      height: auto;
+  }
+
+
    .div1 {
     display: block;
   } 
@@ -79,10 +92,174 @@
       margin-bottom: 30px; /* button ko thoda upar ya neeche shift karne ke liye */
       
   }
+ .part2{
 
+    width: 100%;
+} 
 
+  .image6 {
+      width: 100%;       /* content screen me fit ho jaye */
+      height: auto;     /* height flexible ho */
+      flex-direction: row; /* vertical stacking */
+      align-items: center;
+      justify-content: center;
+      /* padding: 20px;    content ke aaspaas gap */
+  }
 
+  
+
+  .image6 .topic,
+  .image6 .topic22,
+  .image6 .topic44,
+  .image6 .button4 {
+      font-size: 4vw;   /* font size responsive */
+  }
+  
+  #page6 {
+      flex-direction: column; /* left & right vertical stack */
+      height: auto;
+      /* gap: 40px;              sections ke beech gap */
+      padding: 20px 0;
+  }
+
+  .left, .right {
+      width: 95%;             /* full screen width me fit ho */
+      height: auto;
+      display: flex;
+      flex-direction: column; /* content vertical */
+      align-items: center;
+      gap: 0px;
+  }
+
+  .top1 {
+      width: 90%;
+      font-size: 5vw;        /* responsive font size */
+      text-align: center;
+  }
+
+  .pic1, .pic2, .pic3, .pic5 {
+      width: 90%;
+      height: auto;
+      flex-direction: column;  /* image & text vertical */
+      align-items: center;
+  }
+
+  .box1 img {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+  }
+
+  .box2 {
+      width: 90%;
+      text-align: center;
+  }
+
+  .box2 h4 {
+      font-size: 4vw;
+  }
+
+  .box2 p, .box2 a {
+      font-size: 3vw;
+  }
+
+  .ph1, .ph2 {
+      width: 90%;
+      height: auto;
+  }
+
+  .ph1 img {
+      width: 100%;
+      height: auto;
+  }
+
+  .ph2 p {
+      font-size: 4vw;
+  }
+
+  .action, .action2, .action3, .action4, .action5 {
+      width: 95%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+#section5{
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    overflow: hidden;
 }
+.page5{
+    width: 100%;
+    height: 490px;
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lion{
+    width: 55%;
+    height:300px ;
+    border: 2px solid rgb(131, 129, 129);
+    border-radius: 8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobb input{
+    width: 480px;
+    height: 80px;
+    border: 1px solid rgb(65, 61, 61);
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-style: italic;
+}
+.mobb2{
+    display: flex;
+}
+.mobb2 button{
+    width: 130px;
+    height: 80px;
+    background-color: #8B4000;
+    color: white;
+    font-size: 25px;
+    border-left: none;
+    font-style: italic;
+}
+.cock img{
+    width: 400px;
+    height: 400px;
+}
+.my2{
+    display: none;
+}
+.my1{
+    flex-direction: column;
+}
+
+    .hello {
+        display: flex;
+       flex-direction: column;
+             /* wrap rokna */
+        justify-content: center; 
+            gap: 2px;
+    }
+
+    .hello h4, .hello p, .hello a {
+        font-size: 14px;         /* responsive size */
+    } 
+
+    .my4,.list {
+        display: none;
+    }
+}
+
+
+
 
 
  
