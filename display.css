@@ -2,14 +2,15 @@
 #mainbox{
   width: 100%;
   height: 94vh;
-    background-image: url(./neww.jpg);
+    /* background-image: url(./neww.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
   display: flex;
   justify-content:space-evenly;
   align-items: center;
-  
+   background:linear-gradient(rgb(143, 77, 77),rgb(74, 156, 74), rgb(51, 51, 129) ); 
+  /* background: radial-gradient(red green blue); */
 }
 .box1{width: 23%;
 height: 61vh;
